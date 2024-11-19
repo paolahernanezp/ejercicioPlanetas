@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/img/andromeda.jpeg);
+}
+
+html {
+    font-size: 60%;
+}
+
+.listaPlanetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 16px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    background-color: antiquewhite;
+    font-size: 2rem;
+    width: 12rem;
+    border-radius: 10px;
+    position:relative;
+    top: 30px;
+}
+
+.titulo h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.planeta {
+    height: 350px;
+    width: 250px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px; 
+}
+
+img {
+    width: 15rem;
+    height: 15rem;
+}
+
+#mercurio {
+    background-color: antiquewhite;
+}
+
+#venus {
+    background-color: antiquewhite;
+}
+
+#urano {
+    background-color: antiquewhite;
+}
+
+#saturno {
+    background-color: antiquewhite;
+}
+
+#tierra {
+    background-color: rgb(162, 108, 37);
+}
+
+#marte {
+    background-color: rgb(162, 108, 37);
+}
+
+#neptuno {
+    background-color: rgb(162, 108, 37);
+}
+
+#jupiter {
+    background-color: rgb(162, 108, 37);
+}
